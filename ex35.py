@@ -5,7 +5,7 @@ def gold_room():
     
     next = (raw_input("> "))
     try:
-         how_much = int(next)
+         how_much = float(next)
     except:
          dead("Man, learn to type a number.")
     
